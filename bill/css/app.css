@@ -1,0 +1,78 @@
+body{
+    margin-top: 20px;
+}
+
+h1{
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.floating-button-container{
+    float: right;
+}
+
+.homepage .receipt-summary{
+    background-color: rgba(56,111,164, 0.05);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.newpage .form-container{
+    background-color: rgba(56,111,164, 0.05);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.newpage .main-details{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.newpage table .table-item-name{
+    padding-left: 30px;
+}
+
+.newpage .additional{
+    padding-bottom: 40px;
+}
+
+.newpage .btn-submit-container button{
+    float: right;
+}
+
+.newpage .additional-group{
+    padding-top: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.viewpage .view-container{
+    background-color: rgba(56,111,164, 0.05);
+    padding: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.viewpage .receipt-table{
+    background-color: white;
+    padding: 25px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.viewpage .table-container{
+    margin-bottom: 50px;
+}
+
+@media print {
+    .view-container{
+        width: 100%;
+    }
+    .viewpage .floating-button-container{
+        display: none;
+    }
+}

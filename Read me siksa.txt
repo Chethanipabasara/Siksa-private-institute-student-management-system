@@ -1,0 +1,30 @@
+01.First need to install xampp server.
+02.Now open xampp server and start apache server and mysql server
+03.copy source files to local disk C:xampp/htdocs
+04.Now open a web browser[we are recommand google chrome] and open 
+phpmyadmin
+05.Then import database dump file it's name as demo
+06.Now run the index.html file.
+please follow the steps given below.
+I.In the web browser url type area type in that
+localhost/siksa/index.html
+II.Its display's the siksa website home page
+
+now you can use the website normally as your wish...
+
+When press the login button its redirect to the center login page
+Center login page includes three main catogaris
+01.Login as admin
+02.Login as Teacher
+03.Login as Student
+
+01.Login as Admin
+When you choos this page it's display's the admin login form.
+Username-Admin
+Password-themiya
+
+after successfully login the page its redirect to the admin control panel.
+in the admin control panel main menu available
+01.Create new student account
+02.Create new teacher account
+03.

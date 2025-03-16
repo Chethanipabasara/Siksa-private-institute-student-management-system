@@ -1,0 +1,99 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Orginal.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.container{
+  max-width: 380px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  height: auto;
+  position: relative;
+  box-shadow: 0 0 10px rgba(150,150,150,0.5);
+}
+
+.title{
+  position: absolute;
+  top: -10px;
+  background: #01C2C2;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.title:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid blue;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid blue;
+  z-index: ;
+}
+
+.sub-container{
+  padding-top: 30px;
+}
+
+.form{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form .label{
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.form .input{
+  margin: 5px 0 0;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  color: #3e3e40;
+  font-size: 12px;
+  outline: none;
+  border-radius: 3px;
+}
+
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
